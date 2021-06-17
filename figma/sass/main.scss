@@ -1,0 +1,23 @@
+@import "header";
+@import "about";
+@import "courses";
+@import "news";
+@import "footer";
+@import "events";
+@import "contact";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+main{
+    background-color: white;
+}

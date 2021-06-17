@@ -1,0 +1,139 @@
+footer{
+    background-color: #3C3032;
+width: 100%;
+}
+.footer{
+    width: 100%;
+    margin-top: 200px;
+padding-top: 72px;
+display: flex;
+justify-content: space-around;
+
+    .footer_cont1{
+        h2{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 35px;
+            line-height: 41px;
+            
+            color: #FFFFFF;
+            margin: 22px 0;
+                    }
+        p{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: 0.01em;
+            color: #dad8d8;
+            margin: 22px 0;
+
+        }
+        h3{
+            font-family: Calibri;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 27px;
+            text-align: left;
+            color: #FFFFFF;
+            margin: 22px 0;
+
+        }
+
+        
+    }
+
+}
+
+
+.footer_cont2{
+    h2{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 41px;
+        color: #FFFFFF;
+        margin: 10px 0;
+
+    }
+    p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        /* identical to box height, or 178% */
+        letter-spacing: 0.01em;
+        color: #dad8d8;
+        margin: 10px 0;
+
+;
+    }
+    hr{
+        border: 1px solid #FFFFFF;
+        width: 288px;
+    }
+}
+.subscribe {
+    p{
+      font-family: Calibri, sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+      margin-bottom: 25px;
+      margin-bottom: 12px;
+    }
+     .subscribe__input{
+         width: 100%;
+      position: relative;
+      input {
+        width: 100%;
+        padding: 20px 40px 8px 20px;
+        border-radius: 35px;
+        background-color: #DADADA;
+        margin-bottom: 30px;
+        &::placeholder {
+          font-family: 'Segoe UI', sans-serif;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 29px;
+          color: #000000;
+        }
+      }
+    }
+    .subscribe__arrow{
+      position: absolute;
+      left: 232px;
+      bottom: 32px;
+      width: 40px;
+      height: 40px;
+      border-radius: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #F2F2F2;
+      img {
+        color: #000;
+      }
+    }
+  }
+
+  .copyright{
+    padding: 23px 0;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+  }

@@ -1,0 +1,93 @@
+.contact{
+    width: 100%;
+    text-align: center;
+    padding-top: 170px;
+    h2{
+   font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 70px;
+text-align: center;
+
+color: #A0072B;
+
+    }
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 70px;
+        text-align: center;
+        letter-spacing: 14px;
+        color: #c0c1c4;
+    }
+
+    .contact_container{
+        width: 1280px;
+        height: 534px;
+        background: #FFFFFF;
+        box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.2);
+        border-radius: 25px;
+        text-align: center;
+        h2{
+            
+            font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.6em;
+        padding-top: 47px;
+
+color: #614541;
+
+        }
+        .input_field{
+            display: flex;
+            margin-top: 47px;
+            margin-left: 6px;
+            input{
+                width: 549px;
+                height: 50px;
+                background: #FFFFFF;
+                box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.15);
+                border-radius: 35px;
+                margin-left: 50px;
+            }
+
+        }
+        input{
+            width: 1148px;
+            height: 159px;
+            background: #FFFFFF;
+            box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.15);
+            border-radius: 35px;
+            margin-top: 37px;
+        }
+        button{
+            width: 239px;
+            height: 45px;
+            background: #A0072B;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+            border: 0;
+            border-radius: 25px;
+            margin-top: 54px;
+        }
+    }
+    
+    .map_container{
+        width: 1280px;
+        height: 822px;
+
+        text-align: center;
+        background: url(image.png);
+        filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.25));
+        border-radius: 35px;
+        img{
+            width: 1280px;
+        }
+    }
+}

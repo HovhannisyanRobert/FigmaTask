@@ -1,0 +1,58 @@
+.course{
+    width: 100%;
+        margin-top: 50px;
+    .course_h{
+        h2{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 60px;
+            line-height: 70px;
+            text-align: center;
+            color: #E35205;
+        }
+        h3{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 70px;
+            text-align: center;
+            letter-spacing: 14px;
+            color: #2867f0;
+        }
+    }
+    
+}
+
+.courses_cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    div{
+        display: grid;
+        width: 620px;
+        height: 250px;
+        background: #FFFFFF;
+/* Shadow */
+        box-shadow: 15px 15px 35px 5px rgba(0, 0, 0, 0.15);
+        border-radius: 35px;
+        text-align: center;
+        h2{
+            font-family: 'Roboto', sans-serif;
+
+                font-style: normal;
+                font-weight: 900;
+                font-size: 25px;
+                line-height: 29px;
+                text-align: center;
+                color: #E35205;
+                align-self: flex-end;
+                margin-bottom: 39px;
+                    &:hover{
+                        cursor: pointer;
+                        color: rgb(255, 166, 0);
+                    }
+        }
+    }
+}
